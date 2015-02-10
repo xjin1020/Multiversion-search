@@ -1,0 +1,38 @@
+**********************************
+Phase 1:
+cd phase1/
+
+Indexing:
+(1) put your data in "fragment/data", concatenating all versions in one file.
+(2) change the number in "index.sh" to your "total page number = version number * doc number per version"
+(3) **./index.sh(if you also need to test baseline method)** or ./index_nolucene.sh(if you don't need to test baseline method)
+
+**Searching (only need to be done when we are testing the baseline method)**:
+(1) modify your query in "lucene_step/run_search.sh"
+(2) run "./search.sh" under "phase1/" folder
+
+**********************************
+Phase 1 representative:
+cd phase1_rep/
+
+Indexing:
+(1) put your representative data in "fragment/data".
+(2) change the number in "index.sh" to your "total page number = representative page number"
+(3) ./index.sh
+
+Searching:
+(1) modify your query in "lucene_step/run_search.sh"
+(2) run "./search.sh" under "phase1_rep/" folder
+
+**********************************
+Phase 2:
+cd phase2/
+
+Indexing:
+    run "index.sh" in phase2/
+
+Searching:
+(1) modify two parameters in "runjob_search.py":
+    1. query_len //your query length
+    2. k //the parameter for top k results retrieval from Phase 1 representative's result.
+(2) run "search.sh"
