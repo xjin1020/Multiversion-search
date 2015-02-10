@@ -1,0 +1,1 @@
+directional reflectance properties of astronomical bodies are often expressed in terms of the five hapke parameters which semi empirically describe the variation of albedo with phase angle including a characterization of the opposition effect of regolith surfaces the correlation

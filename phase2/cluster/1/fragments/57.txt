@@ -1,0 +1,1 @@
+fuels is 0 2 w m 2 with a range 0 1 to 0 4 w m 2 other types of albedo single scattering albedo is used to define scattering of

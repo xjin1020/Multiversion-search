@@ -1,0 +1,1 @@
+albedo body is eris with an albedo of 0 96 although such reflectance properties are different from those of any

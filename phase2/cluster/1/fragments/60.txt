@@ -1,0 +1,1 @@
+albedo depends on the directional distribution of incident radiation except for lambertian surfaces which scatter radiation in all directions according to a cosine function and therefore have an

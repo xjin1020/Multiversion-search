@@ -1,0 +1,1 @@
+of the brdf is used to translate a sample set of satellite reflectance measurements into estimates

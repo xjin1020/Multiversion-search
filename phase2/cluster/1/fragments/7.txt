@@ -1,0 +1,1 @@
+according to a cosine function so their albedo does not depend on the incident distribution in practice a bidirectional reflectance distribution function brdf may be required to characterize the scattering properties of

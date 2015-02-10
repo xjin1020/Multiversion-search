@@ -1,0 +1,1 @@
+albedo class wikitable style float right margin 10px sample albedos surface typical albedo fresh asphalt 0 04 conifer forest summer 0 08 deciduous trees 0 15 to 0 18 bare soil 0 17 desert sand 0 40 ocean ice 0 5 0 7 fresh snow 0

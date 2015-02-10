@@ -1,0 +1,1 @@
+sometimes reduces albedo on glaciers and ice sheets although the reflectivity of water is very low at low and medium angles of incident
