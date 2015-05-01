@@ -1,0 +1,10 @@
+These scripts are written by Michael Agun using shell, sed and perl.
+
+Pipeline:
+(1). Start from "do_wordbag.sh" with one argument;
+(2). "do_wordbag" will unzip the file first, then call "scan_prefix.sh"(the reason we didn't use parallel_scan_prefix is that the speed if scan_prefix.sh is already faster than bunzip2) to extract those pages begin with "A"; after that it will call "drop-redirect.sed" to drop the redirect tag; at last it will pass the result to "wordbag.sh"
+(3). "wordbag.sh" will extract the bag of words by considering the links, which is written in perl.
+
+***use "drop-parsed-redirects.sh" after the result of old version "do_wordbag.sh" (normally we don't need it now.)***
+
+

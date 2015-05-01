@@ -1,0 +1,12 @@
+#time ./do_wordbag.sh /mnt/data1/xin_jin/Wikipedia/bz2/enwiki-20130503-pages-articles-multistream.xml.bz2;
+#time ./do_wordbag.sh /mnt/data1/xin_jin/Wikipedia/bz2/enwiki-20130604-pages-articles-multistream.xml.bz2;
+#time ./do_wordbag.sh /mnt/data1/xin_jin/Wikipedia/bz2/enwiki-20130708-pages-articles-multistream.xml.bz2;
+#time ./do_wordbag.sh /mnt/data1/xin_jin/Wikipedia/bz2/enwiki-20130805-pages-articles-multistream.xml.bz2;
+#time ./do_wordbag.sh /mnt/data1/xin_jin/Wikipedia/bz2/enwiki-20130904-pages-articles-multistream.xml.bz2;
+#time ./do_wordbag.sh /mnt/data1/xin_jin/Wikipedia/bz2/enwiki-20131001-pages-articles-multistream.xml.bz2;
+#time ./do_wordbag.sh /mnt/data1/xin_jin/Wikipedia/bz2/enwiki-20131104-pages-articles-multistream.xml.bz2;
+#time ./do_wordbag.sh /mnt/data1/xin_jin/Wikipedia/bz2/enwiki-20131202-pages-articles-multistream.xml.bz2;
+#time ./do_wordbag.sh /mnt/data1/xin_jin/Wikipedia/bz2/enwiki-20140102-pages-articles-multistream.xml.bz2;
+#time ./do_wordbag.sh /mnt/data1/xin_jin/Wikipedia/bz2/enwiki-20140203-pages-articles-multistream.xml.bz2;
+#time ./do_wordbag.sh /mnt/data1/xin_jin/Wikipedia/bz2/enwiki-20140304-pages-articles-multistream.xml.bz2;
+time ./do_wordbag.sh /mnt/data1/xin_jin/Wikipedia/bz2/enwiki-20140402-pages-articles-multistream.xml.bz2;
