@@ -161,8 +161,12 @@ Explanation of batch*:
 used to calculate phase2 scoring time, only need to copy
 phase2/search_doc/main.cpp from main_scoring.cpp other than
 main_intersection.cpp
-    (3) batch_optionTest*: calculate outTestA, outTestC and then use
-googledoc_optionTest.py to get best OptionD result, need to modify (a)phase2/search_doc/main.cpp from main_options.cpp and (b) phase2/search_doc/optionTest.cpp to the corresponding options(A or C) and need to be run twice.
+    (3) How to generate option A, B, C time in the paper:
+    batch_optionTest*: calculate outTestA, outTestC and then use googledoc_optionTest.py to get best OptionD result.
+How to run: (a)make sure phase2/search_doc/main.cpp comes from main_options.cpp (use diff to make sure they are the same)and (b) modify the flag which labels to run optionA or optionB in phase2/search_doc/optionTest.cpp to the corresponding options(A or C) and need to be run twice(first run is warm up).
+    outTestA_f_avg saves the results of batch_optionTest for option A 
+    outTestC_f_avg saves the results of batch_optionTest for option C 
+
     (4) batch_phase1.py: calculate phase1 time; batch_phase1_sigir.py:
     calculate sigir phase1 time.
 
