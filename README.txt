@@ -183,3 +183,6 @@ f time(cluster 1 token1) f time(cluster 1 token2) ... f time(last cluster last t
 totaltime[token0] ... totaltime[tokenl]
 -99999
 ...
+
+******************************************************************************
+Qinghao's option A, B, C check README_qinghao
