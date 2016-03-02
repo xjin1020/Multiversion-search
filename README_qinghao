@@ -1,0 +1,41 @@
+To run the new method, you need to copy the following files from 128.111.46.82 server at the following path: mnt/data2/qinghao/web/project_week8
+
+Makefile
+batch_optionTestCluster_vector.py
+run_optionTestCluster_vector.sh
+choose_parameterCluster_AC.cpp
+choose_parameterCluster_D.cpp
+phase2/runjob_optionTestCluster_vector.py
+phase2/search_doc/optionTestCluster_vector.cpp
+phase2/search_doc/Makefile
+
+
+The steps to run the code
+
+make all the files with above Makefile
+
+run:
+
+optionA:
+1. change the corresponding code at phase2/search_doc/optionTestCluster_vector.cpp to 1
+2. python batch_optionTestCluster_vector.py
+3. save the output of step2 in a file named "outTestClusterA_vector"
+
+optionC:
+1. change the corresponding code at phase2/search_doc/optionTestCluster_vector.cpp to 0
+2. python batch_optionTestCluster_vector.py
+3. save the output of step2 in a file named "outTestClusterC_vector"
+
+optionD:
+1. change the corresponding code at phase2/search_doc/optionTestCluster_vector.cpp to MakeChoice()
+2. python batch_optionTestCluster_vector.py
+3. save the output of step2 in a file named "outTestClusterD_vector"
+
+Generate Readable Results:
+./choose_ParameterCluster_AC
+The result is the OptionA, OptionC and Optimal row of googledoc for the dataset you are running
+
+./choose_ParameterCluster_D
+The result is the OptionD, chooseA and chooseC row of googledoc for the dataset you are running
+
+
