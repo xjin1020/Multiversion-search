@@ -185,4 +185,6 @@ totaltime[token0] ... totaltime[tokenl]
 ...
 
 ******************************************************************************
+Feb. 3. 2016
 Qinghao's option A, B, C check README_qinghao
+Qinghao's ratio scripts check README_ratio
