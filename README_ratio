@@ -1,0 +1,62 @@
+To get the ratio, you need to copy the following files from 128.111.46.82 server at the following path: mnt/data2/qinghao/web/project_week8
+
+googledoc_optionTest_ratioA.py
+googledoc_optionTest_ratioC.py
+batch_optionTest_ratioA.py
+batch_optionTest_ratioC.py
+run_optionTest_ratioA.sh
+run_optionTest_ratioC.sh
+phase2/calculateTest_ratio.py
+phase2/runjob_optionTest_ratioA.py
+phase2/runjob_optionTest_ratioC.py
+phase2/search_doc/Makefile
+phase2/search_doc/optionTest_ratioA.cpp
+phase2/search_doc/optionTest_ratioC.cpp
+
+
+the steps to run the code:
+
+Please use the Makefile provided to compile all necessary files.
+
+1. run the run_optionTest_ratioA.sh with this command: python batch_optionTest_ratioA.sh
+2. save the output of this step in a file named "outTestA_ratio_vector"
+3. run the googledoc_optionTest_ratioA.py with this command: python googledoc_optionTest_ratioA.py
+4. the output is the first two columns data for optionA
+
+1. run the run_optionTest_ratioC.sh with this command: python batch_optionTest_ratioC.sh
+2. save the output of this step in a file named "outTestC_ratio_vector"
+3. run the googledoc_optionTest_ratioC.py with this command: python googledoc_optionTest_ratioC.py
+4. the output is the first two columns data for optionC
+
+Once you have all the data, you can calculate the ratio.
+
+
+To make this script work for the other two datasets, you need to modify two files:
+
+The 21 and 22ed line of these two files:
+phase2/runjob_optionTest_ratioA.py
+phase2/runjob_optionTest_ratioC.py
+
+For web:
+k=2000
+latest_offset= 5000000-250000
+
+For wiki:
+k=1000
+latest_offset = 3532308
+
+For github:
+k=5000
+latest_offset = 4987995
+-----------------------------------
+
+
+The 5th line of thes two files:
+run_optionTest_ratioA.sh
+run_optionTest_ratioC.sh
+
+For wiki:
+top_k = 1000
+
+For github:
+top_k = 5000
