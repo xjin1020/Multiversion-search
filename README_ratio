@@ -58,5 +58,8 @@ run_optionTest_ratioC.sh
 For wiki:
 top_k = 1000
 
+For web:
+top_k = 2000
+
 For github:
 top_k = 5000
