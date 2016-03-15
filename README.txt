@@ -192,3 +192,12 @@ Qinghao's ratio scripts check README_ratio
 ******************************************************************************
 Mar. 15. 2016
 Qinghao's indexer: in qinghao_indexer folder
+For Web and Github dataset:
+The only difference in indexing phase is:   phase1/index_qinghao.sh
+Different datasets have different 7th line: 
+for wiki:
+./run_gen_index_new.sh 3838724
+for web:
+./run_gen_index_new.sh 2500000
+for github:
+./run_gen_index_new.sh 5007525
