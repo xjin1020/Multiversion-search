@@ -1,0 +1,9 @@
+In order to run the index_qinghao.sh, you need to copy the following files to your folder:
+
+phase1_rep/index_qinghao.sh
+phase1_rep/lucene_step/run_index_new.sh
+phase1_rep/lucene_step/archive_lucene_index2.jar
+
+Please copy the above files to your folder, and DO NOT remove any old files. My script still need most of your old files.
+
+command to index: sh index_qinghao.sh

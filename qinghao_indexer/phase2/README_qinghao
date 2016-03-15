@@ -1,0 +1,11 @@
+In order to run the index_qinghao.sh, you need to copy the following files to your folder:
+
+phase2/index_qinghao.sh
+phase2/gen_index/runjob_new.py
+phase2/gen_index/main_new.cpp
+phase2/lucene_step/runjob_index_new.py
+phase2/lucene_step/binary_index_gen
+
+Please copy the above files to your folder, and DO NOT remove any old files. My script still need most of your old files.
+
+command to index: sh index_qinghao.sh
