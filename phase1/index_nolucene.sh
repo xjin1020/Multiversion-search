@@ -1,9 +1,11 @@
 echo "********************start fragment step********************"
 cd fragment/
+make
 ./run_fragment.sh
 
 echo "********************start gen_index step********************"
 cd ../gen_index/
+make
 ./run_gen_index.sh 5000
 
 #echo "********************start lucene_index step********************"
