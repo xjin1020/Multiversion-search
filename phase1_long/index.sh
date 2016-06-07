@@ -4,10 +4,12 @@ doc_num=$(wc -l fragment/data/longest_version | grep -o "[0-9]*")
 
 echo "********************start fragment step********************"
 cd fragment/
+make
 ./run_fragment.sh
 
 echo "********************start gen_index step********************"
 cd ../gen_index/
+make
 ./run_gen_index.sh $doc_num 
 
 echo "********************start lucene_index step********************"

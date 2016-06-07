@@ -1,3 +1,4 @@
+Firstly compile all the files by typing "make" in different folders
 **********************************
 Phase 1:
 cd phase1/
