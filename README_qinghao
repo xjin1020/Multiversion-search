@@ -37,5 +37,22 @@ The result is the OptionA, OptionC and Optimal row of googledoc for the dataset 
 
 ./choose_ParameterCluster_D
 The result is the OptionD, chooseA and chooseC row of googledoc for the dataset you are running
+--------------------------------------------------------------------------------------------------
+Update on 03/25
+The search part changed when using new index method, you need to do the following changes:
+
+To run the new method, you need to copy the following files from 128.111.46.85 server at the following path: mnt/data2/qinghao/web/project_week8
+
+batch_optionTestCluster_vector_new.py
+run_optionTestCluster_vector_new.sh
+phase1_rep/initial_search.sh
+phase1_rep/search_doc/main_tradi.cpp
+phase2/runjob_optionTestCluster_vector_new.py
+phase2/lucene_step/run_search_qinghao.sh
+phase2/lucene_step/index_search
+
+Changes for run search part:
+1. run 'phase1_rep/initial_seach.sh' before run search script
+2. run 'batch_optionTestCluster_vector_new.py' instead of 'batch_optionTestCluster_vector.py' for the above optionA optionB optionD
 
 
