@@ -1,4 +1,4 @@
-To run the new method, you need to copy the following files from 128.111.46.82 server at the following path: mnt/data2/qinghao/web/project_week8
+To run the new method, you need to copy the following files from 128.111.46.85 server at the following path: mnt/data2/qinghao/web/project_week8
 
 Makefile
 batch_optionTestCluster_vector.py
